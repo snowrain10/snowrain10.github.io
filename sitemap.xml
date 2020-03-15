@@ -4,7 +4,12 @@
 
     <sitemap>
         <loc>https://snowrain10.github.io/post-sitemap.xml</loc>
-        <lastmod>2020-03-15T03:57:57.441Z</lastmod>
+        <lastmod>2020-03-15T11:35:15.345Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://snowrain10.github.io/tag-sitemap.xml</loc>
+        <lastmod>2020-03-15T11:35:15.345Z</lastmod>
     </sitemap>
 
 </sitemapindex>
