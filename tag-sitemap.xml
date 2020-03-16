@@ -3,8 +3,22 @@
 
 
     <url>
+        <loc>https://snowrain10.github.io/tags/hexo-config/</loc>
+        <lastmod>2020-03-16T12:57:48.370Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://snowrain10.github.io/tags/hexo-start/</loc>
+        <lastmod>2020-03-16T11:59:54.501Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://snowrain10.github.io/tags/hexo/</loc>
-        <lastmod>2020-03-16T10:58:03.431Z</lastmod>
+        <lastmod>2020-03-16T11:17:03.278Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
