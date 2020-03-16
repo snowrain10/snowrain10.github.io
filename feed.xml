@@ -43,37 +43,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://snowrain10.github.io/2020/03/16/hello-world/"/>
-    <id>https://snowrain10.github.io/2020/03/16/hello-world/</id>
-    <published>2020-03-16T11:17:03.278Z</published>
-    <updated>2020-03-16T11:17:03.278Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-    
-      <category term="Hexo" scheme="https://snowrain10.github.io/categories/Hexo/"/>
-    
-    
-      <category term="hexo" scheme="https://snowrain10.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo 시작하기</title>
     <link href="https://snowrain10.github.io/2020/03/16/Getting-Started-with-Hexo/"/>
     <id>https://snowrain10.github.io/2020/03/16/Getting-Started-with-Hexo/</id>
     <published>2020-03-16T10:51:51.000Z</published>
-    <updated>2020-03-16T11:59:54.501Z</updated>
+    <updated>2020-03-16T17:47:36.321Z</updated>
     
     <content type="html"><![CDATA[<p>참고 사이트<br><a href="https://futurecreator.github.io/2016/06/14/get-started-with-hexo/" target="_blank" rel="noopener">워드프레스보다 쉬운 Hexo 블로그 시작하기</a></p><h4 id="설치하기"><a href="#설치하기" class="headerlink" title="설치하기"></a>설치하기</h4><ul><li><a href="https://nodejs.org/ko/" target="_blank" rel="noopener">Node.js</a> 와 <a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a> 설치</li><li>npm 으로 hexo 설치</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h4 id="블로그-파일을-저장할-폴더를-만들고-구조-생성하기"><a href="#블로그-파일을-저장할-폴더를-만들고-구조-생성하기" class="headerlink" title="블로그 파일을 저장할 폴더를 만들고 구조 생성하기"></a>블로그 파일을 저장할 폴더를 만들고 구조 생성하기</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init myBlog</span><br><span class="line">$ <span class="built_in">cd</span> myBlog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure><ul><li>생성된 폴더 구조</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">. <span class="comment"># 블로그 루트 폴더</span></span><br><span class="line">├─ .gitignore</span><br><span class="line">├─ _config.yml <span class="comment"># 설정 파일</span></span><br><span class="line">├─ node_modules</span><br><span class="line">├─ package.json</span><br><span class="line">├─ scaffolds <span class="comment"># 스캐폴드(양식)</span></span><br><span class="line">├─ <span class="built_in">source</span> <span class="comment"># 소스 폴더</span></span><br><span class="line">|  ├─ _drafts <span class="comment"># 초안 # 안보이는데...</span></span><br><span class="line">|  └─ _posts <span class="comment"># 포스트</span></span><br><span class="line">└─ themes <span class="comment"># 테마 폴더</span></span><br><span class="line">   └─ landscape <span class="comment"># 기본 테마</span></span><br></pre></td></tr></table></figure><h4 id="로컬서버-띄우기"><a href="#로컬서버-띄우기" class="headerlink" title="로컬서버 띄우기"></a>로컬서버 띄우기</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure><h4 id="로컬서버-접속하기"><a href="#로컬서버-접속하기" class="headerlink" title="로컬서버 접속하기"></a>로컬서버 접속하기</h4><p>위에서 나온 주소 <a href="http://localhost:4000/" target="_blank" rel="noopener">localhost:4000</a>에 접속한다.</p><p>포트를 변경하려면 옵션 -P를 준다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server -p 3000</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -90,7 +64,7 @@
       <category term="Hexo" scheme="https://snowrain10.github.io/categories/Hexo/"/>
     
     
-      <category term="hexo, start" scheme="https://snowrain10.github.io/tags/hexo-start/"/>
+      <category term="hexo, start, install, init" scheme="https://snowrain10.github.io/tags/hexo-start-install-init/"/>
     
   </entry>
   
